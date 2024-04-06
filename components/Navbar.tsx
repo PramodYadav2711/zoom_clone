@@ -12,11 +12,11 @@ export default function Navbar() {
           src="/icons/logo.svg"
           height={32}
           width={32}
-          alt="Yoom Logo"
+          alt="Xoom Logo"
           className="max-sm:size-10"
         />
         <p className="text-[26px] font-extrabold text-white max-sm:hidden">
-          Yoom
+          Xoom
         </p>
       </Link>
 
