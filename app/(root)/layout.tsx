@@ -1,5 +1,14 @@
 import StreamVideoProvider from '@/providers/StreamClientProvider';
+import { Metadata } from 'next';
 import React, { ReactNode } from 'react';
+
+export const metadata: Metadata = {
+  title: 'Xoom',
+  description: 'Zoom Clone',
+  icons: {
+    icon: '/icons/logo.svg',
+  },
+};
 
 function RootLayout({ children }: { children: ReactNode }) {
   return (
